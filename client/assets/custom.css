@@ -1,0 +1,77 @@
+#__nuxt{
+    font-family: sans-serif !important;
+}
+body {
+    margin: 0 !important
+}
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+.sidebar li {
+    text-align: left;
+    padding: 20px  1.5rem;
+}
+.sidebar li:hover  {
+    border-radius: 10px;
+    background-color: #282E38;
+}
+.sidebar li a{
+   font-family: sans-serif !important; 
+   text-decoration: none;
+   padding-left: 10px;
+   color: white;
+}
+.text-red-700 {
+    color: rgb(204, 35, 35);
+}
+.w-80{
+    width: 80%;
+}
+.w-20 {
+    width: 20%;
+}
+.w-25 {
+    width: 25%;
+}
+.w-75 {
+    width: 75%;
+}
+.w-50 {
+    width: 50%;
+}
+.w-30 {
+    width: 33%;
+}
+.w-70 {
+    width: 70%;
+}
+.bg-gray-custom-900{
+    background: #282E38;
+}
+.bg-gray-custom-700 {
+    background: #37404C;
+}
+.active{
+    background-color: #282E38;
+    border-radius: 10px;
+}
+.custom-chips {
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    padding: 1px 13px;
+    border-radius: 34px;
+}
+.error {
+    font-size: 12px;
+    color: red;
+}
+.border-error {
+    border: 1px solid red !important;
+}
+.custom-select .ant-select-selection--single{
+    display: flex;
+    align-items: center;
+    height: 45px !important;
+}
